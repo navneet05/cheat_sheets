@@ -1,0 +1,38 @@
+	##### HANDELLING MISSING VALUE #####
+
+# MEAN
+If data has less outlier
+
+# MEDIAN
+If data is skewed distribution than use it only for numerical values
+
+# MODE-highest frequency 
+if catgorial data and can be also used for numerical 
+
+
+	##### DATA VISUALIZATION #####
+
+# MATPLOTLIB PLOTTING STEPS
+
+1)	Importing required libraries and dataset to plot using Pandas pd.read_csv()
+2)  Extracting important parts for plots using conditions on Pandas Dataframes.
+3)	plt.plot()for plotting line chart similarly in place of plot other functions are used for plotting. All plotting functions require data and it is provided in the function through		parameters.
+4)	plot.xlabel , plt.ylabel for labeling x and y-axis respectively.
+5)	plt.xticks , plt.yticks for labeling x and y-axis observation tick points respectively.
+6)	plt.legend() for signifying the observation variables.
+7)	plt.title() for setting the title of the plot.
+8)	plot.show() for displaying the plot.
+
+    ##### TYPES OF FEATURES #####
+1)  Categorical/Nominal: Variables that can be divided into multiple categories but having no order or priority. 
+    Eg. Embarked (C = Cherbourg; Q = Queenstown; S = Southampton)
+2)  Binary: A subtype of categorical features, where the variable has only two categories. 
+    Eg: Sex (Male/Female)
+3)  Ordinal: They are similar to categorical features but they have an order(i.e can be sorted). 
+    Eg. Pclass (1, 2, 3)
+4)  Continuous: They can take up any value between the minimum and maximum values in a column. 
+    Eg. Age, Fare
+5)  Count: They represent the count of a variable. 
+    Eg. SibSp, Parch
+6)  Useless: They don’t contribute to the final outcome of an ML model. 
+    Here, PassengerId, Name, Cabin and Ticket might fall into this category.
